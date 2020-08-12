@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville|Courgette&display=swap');
+
+
+body {
+    background-color: yellow;
+    font-family: "Courgette";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing-: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+     
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Baskervville";
+    font-weight: 300;
+    color: #333;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+a {
+    color: darkcyan;
+}
+
+a:hover, a:focus {
+    color: darkslateblue;
+    text-decoration: darkslateblue;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0px;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0px;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background: #18285eda;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: burlywood;
+}
+
+.navbar-inverse .navbar-brand {
+    color: burlywood;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    border-bottom: burlywood solid 2px;
+}
+
+#headerwrap {
+    background: url("../image/IMG_20191203_225841_501.jpg") no-repeat center top;
+    margin-top: 79px;
+    padding-top: 79px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h2 {
+    margin-top: 100px;
+    color: midnightblue;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#headerwrap h3 {
+    color: darkslategray;
+    
+}
+
+.wrap {
+    
+}
